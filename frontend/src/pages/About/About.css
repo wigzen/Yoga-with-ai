@@ -1,0 +1,31 @@
+.about-container {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.about-heading {
+  font-size: 4rem;
+
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+.about-main {
+  margin: auto;
+  width: 60%;
+}
+.about-content {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 2;
+  border: solid;
+  padding: 1em;
+  border-radius: 50px 0px 50px 0px;
+}
